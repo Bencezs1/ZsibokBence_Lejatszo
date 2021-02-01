@@ -1,0 +1,31 @@
+﻿<Window x:Class="Lejatszo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lejatszo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="lista" HorizontalAlignment="Left" Height="189" Margin="30,26,0,0" VerticalAlignment="Top" Width="566" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="pl" Content="Lejátszás" HorizontalAlignment="Left" Margin="36,292,0,0" VerticalAlignment="Top" Width="85" Height="33" Click="pl_Click"/>
+        <Button x:Name="p" Content="Megállítás" HorizontalAlignment="Left" Margin="144,292,0,0" VerticalAlignment="Top" Width="85" Height="33" Click="p_Click"/>
+        <Button x:Name="s" Content="Leállítás" HorizontalAlignment="Left" Margin="261,292,0,0" VerticalAlignment="Top" Width="85" Height="33" Click="s_Click"/>
+        <Button x:Name="be" Content="szám betöltése" HorizontalAlignment="Left" Margin="36,361,0,0" VerticalAlignment="Top" Width="117" Height="33" Click="be_Click"/>
+        <Button x:Name="pr" Content="Előző" HorizontalAlignment="Left" Margin="401,292,0,0" VerticalAlignment="Top" Width="85" Height="33"/>
+        <Button x:Name="n" Content="Következő" HorizontalAlignment="Left" Margin="527,292,0,0" VerticalAlignment="Top" Width="85" Height="33"/>
+        <Button x:Name="t" Content="Szám törlése" HorizontalAlignment="Left" Margin="189,361,0,0" VerticalAlignment="Top" Width="85" Height="33" Click="t_Click"/>
+        <Slider x:Name="hang" HorizontalAlignment="Left" Margin="625,119,0,0" VerticalAlignment="Top" Height="45" Width="129" RenderTransformOrigin="0.5,0.5" ValueChanged="hang_ValueChanged" Maximum="1" TickPlacement="Both">
+            <Slider.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90.318"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Slider.RenderTransform>
+        </Slider>
+        <Slider x:Name="csuszka" HorizontalAlignment="Left" Margin="36,220,0,0" VerticalAlignment="Top" Width="560" Height="38" ValueChanged="Slider_ValueChanged"/>
+
+    </Grid>
+</Window>

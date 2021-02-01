@@ -1,0 +1,15 @@
+D:\Program Files (x86)\prog\Lejatszo\Lejatszo\bin\Debug\Lejatszo.exe.config
+D:\Program Files (x86)\prog\Lejatszo\Lejatszo\bin\Debug\Lejatszo.exe
+D:\Program Files (x86)\prog\Lejatszo\Lejatszo\bin\Debug\Lejatszo.pdb
+D:\Program Files (x86)\prog\Lejatszo\Lejatszo\obj\Debug\Lejatszo.csprojAssemblyReference.cache
+D:\Program Files (x86)\prog\Lejatszo\Lejatszo\obj\Debug\MainWindow.g.cs
+D:\Program Files (x86)\prog\Lejatszo\Lejatszo\obj\Debug\App.g.cs
+D:\Program Files (x86)\prog\Lejatszo\Lejatszo\obj\Debug\Lejatszo_MarkupCompile.cache
+D:\Program Files (x86)\prog\Lejatszo\Lejatszo\obj\Debug\Lejatszo_MarkupCompile.lref
+D:\Program Files (x86)\prog\Lejatszo\Lejatszo\obj\Debug\MainWindow.baml
+D:\Program Files (x86)\prog\Lejatszo\Lejatszo\obj\Debug\Lejatszo.g.resources
+D:\Program Files (x86)\prog\Lejatszo\Lejatszo\obj\Debug\Lejatszo.Properties.Resources.resources
+D:\Program Files (x86)\prog\Lejatszo\Lejatszo\obj\Debug\Lejatszo.csproj.GenerateResource.cache
+D:\Program Files (x86)\prog\Lejatszo\Lejatszo\obj\Debug\Lejatszo.csproj.CoreCompileInputs.cache
+D:\Program Files (x86)\prog\Lejatszo\Lejatszo\obj\Debug\Lejatszo.exe
+D:\Program Files (x86)\prog\Lejatszo\Lejatszo\obj\Debug\Lejatszo.pdb
