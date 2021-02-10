@@ -7,15 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ListBox x:Name="lista" HorizontalAlignment="Left" Height="189" Margin="30,26,0,0" VerticalAlignment="Top" Width="566" RenderTransformOrigin="0.5,0.5"/>
+        <ListBox x:Name="lista" HorizontalAlignment="Left" Height="189" Margin="30,26,0,0" VerticalAlignment="Top" Width="566" RenderTransformOrigin="0.5,0.5" MouseDoubleClick="lista_MouseDoubleClick"/>
         <Button x:Name="pl" Content="Lejátszás" HorizontalAlignment="Left" Margin="36,292,0,0" VerticalAlignment="Top" Width="85" Height="33" Click="pl_Click"/>
         <Button x:Name="p" Content="Megállítás" HorizontalAlignment="Left" Margin="144,292,0,0" VerticalAlignment="Top" Width="85" Height="33" Click="p_Click"/>
         <Button x:Name="s" Content="Leállítás" HorizontalAlignment="Left" Margin="261,292,0,0" VerticalAlignment="Top" Width="85" Height="33" Click="s_Click"/>
         <Button x:Name="be" Content="szám betöltése" HorizontalAlignment="Left" Margin="36,361,0,0" VerticalAlignment="Top" Width="117" Height="33" Click="be_Click"/>
-        <Button x:Name="pr" Content="Előző" HorizontalAlignment="Left" Margin="401,292,0,0" VerticalAlignment="Top" Width="85" Height="33"/>
-        <Button x:Name="n" Content="Következő" HorizontalAlignment="Left" Margin="527,292,0,0" VerticalAlignment="Top" Width="85" Height="33"/>
+        <Button x:Name="pr" Content="Előző" HorizontalAlignment="Left" Margin="401,292,0,0" VerticalAlignment="Top" Width="85" Height="33" Click="pr_Click"/>
+        <Button x:Name="n" Content="Következő" HorizontalAlignment="Left" Margin="527,292,0,0" VerticalAlignment="Top" Width="85" Height="33" Click="n_Click"/>
         <Button x:Name="t" Content="Szám törlése" HorizontalAlignment="Left" Margin="189,361,0,0" VerticalAlignment="Top" Width="85" Height="33" Click="t_Click"/>
-        <Slider x:Name="hang" HorizontalAlignment="Left" Margin="625,119,0,0" VerticalAlignment="Top" Height="45" Width="129" RenderTransformOrigin="0.5,0.5" ValueChanged="hang_ValueChanged" Maximum="1" TickPlacement="Both">
+        <Slider x:Name="hang" HorizontalAlignment="Left" Margin="625,119,0,0" VerticalAlignment="Top" Height="45" Width="129" RenderTransformOrigin="0.5,0.5" ValueChanged="hang_ValueChanged" Maximum="1" Value="0.5">
             <Slider.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
